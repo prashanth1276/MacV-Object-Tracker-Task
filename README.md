@@ -56,6 +56,6 @@ This project demonstrates the process of tracking multiple objects in a video us
    -> This utility function is responsible for drawing the trails of the tracked objects in the video. It takes the list of centroids for each object and draws lines connecting them to create a visual trail.
 
 ## Result Video
-click the link to view the video directly in the repository:
+Please go through this Video:
 
 [Watch the result video](https://github.com/user-attachments/assets/3885cf27-42e4-4ed0-934f-f2ddb3def2e3)
