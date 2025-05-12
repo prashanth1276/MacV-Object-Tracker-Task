@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Tracking Video</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container to center content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Video Styling */
+        video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        /* Custom Button Styling */
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            font-size: 1rem;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .btn {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+        }
+
+        /* Footer Section */
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Object Tracking Video</h1>
+
+        <div class="video-container">
+            <video controls>
+                <source src="../output/output_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Optional Button (Example: Download, Play in Fullscreen) -->
+        <div class="button-container">
+            <a href="../output/output_video.mp4" class="btn" download>Download Video</a>
+        </div>
+        
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Object Tracking. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
