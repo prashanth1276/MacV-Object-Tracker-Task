@@ -58,4 +58,4 @@ This project demonstrates the process of tracking multiple objects in a video us
 ## Result Video
 click the link to view the video directly in the repository:
 
-[Watch the result video](assets/result_video.mp4)
+[Watch the result video](output/output_video.mp4)
