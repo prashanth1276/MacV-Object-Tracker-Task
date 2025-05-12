@@ -31,34 +31,31 @@ This project demonstrates the process of tracking multiple objects in a video us
 ## Project Structure
 ### MacV_Object_Tracker
 1. assets/
-   MacV.mp4 # Input video file for tracking
+   MacV.mp4         # Input video file for tracking
 2. output/
-   output_video.mp4 # Output video with object tracking
+   output_video.mp4         # Output video with object tracking
 3. src/
-   tracker.py # Main script for object tracking
-   utils.py # Helper function to draw the trail of tracked objects
+   tracker.py           # Main script for object tracking
+   utils.py        # Helper function to draw the trail of tracked objects
 4. web/
-   index.html # Web page to display the result video in the browser
-5. requirements.txt # List of dependencies
-6. README.md # Project documentation
+   index.html          # Web page to display the result video in the browser
+5. requirements.txt       # List of dependencies
+6. README.md          # Project documentation
 
 ## Code Explanation
 1. tracker.py
   -> This is the main script that performs object tracking. It includes:
+   
     1. Video Capture: Captures video frames from the input video.
     2. Object Selection: Uses OpenCV's selectROIs to allow users to select multiple objects in the first frame.
     3. CSRT Tracker: Uses OpenCV's CSRT tracker to track the objects throughout the video.
     4. Centroid and Trail: For each object, the centroid is calculated, and its trail is drawn across the video frames.
     5. Output Video: The processed frames are saved to an output video file.
-2. utils.py
+   
+3. utils.py
    -> This utility function is responsible for drawing the trails of the tracked objects in the video. It takes the list of centroids for each object and draws lines connecting them to create a visual trail.
 
 ## Result Video
-
-You can view the result video demonstrating the object detection on uploaded footage:
-
-![Result Video](assets/result_video.mp4)
-
-Or click the link to view the video directly in the repository:
+click the link to view the video directly in the repository:
 
 [Watch the result video](assets/result_video.mp4)
