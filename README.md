@@ -17,7 +17,7 @@ This project demonstrates the process of tracking multiple objects in a video us
 - opencv-contrib-python
 - NumPy
 
-### Installation
+## Installation
 ## Install dependencies using pip:
 - pip install -r requirements.txt
 
@@ -29,23 +29,18 @@ This project demonstrates the process of tracking multiple objects in a video us
 4. Result: After object selection, the script will begin tracking the objects and display the bounding boxes, centroids, and trails for each object in real-time. The processed video with all the tracking information will be saved as output_video.mp4 in the output folder.
 
 ## Project Structure
-/MacV_Object_Tracker
-│
-├── assets/
-│   └── MacV.mp4              # Input video file for tracking
-│
-├── output/
-│   └── output_video.mp4      # Output video with object tracking
-│
-├── src/
-│   └── tracker.py         # Main script for object tracking
-│   └── utils.py           # Helper function to draw the trail of tracked objects
-│
-├── web/
-│    └── index.html       # This is to display the Video in Browser.
-│
-├── requirements.txt          # List of dependencies
-└── README.md                 # Project documentation
+### MacV_Object_Tracker
+1. assets/
+   MacV.mp4 # Input video file for tracking
+2. output/
+   output_video.mp4 # Output video with object tracking
+3. src/
+   tracker.py # Main script for object tracking
+   utils.py # Helper function to draw the trail of tracked objects
+4. web/
+   index.html # Web page to display the result video in the browser
+5. requirements.txt # List of dependencies
+6. README.md # Project documentation
 
 ## Code Explanation
 1. tracker.py
