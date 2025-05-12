@@ -38,7 +38,7 @@ This project demonstrates the process of tracking multiple objects in a video us
    tracker.py           # Main script for object tracking
    utils.py        # Helper function to draw the trail of tracked objects
 4. web/
-   index.html          # Web page to display the result video in the browser
+   index.html          # Web HTML page to display the result video in the browser
 5. requirements.txt       # List of dependencies
 6. README.md          # Project documentation
 
